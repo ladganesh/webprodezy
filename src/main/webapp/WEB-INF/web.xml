@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+    <servlet>
+        <servlet-name>MachineTable</servlet-name>
+        <servlet-class>com.mycompany.webprodezy.machine.MachineTable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MachineTable</servlet-name>
+        <url-pattern>/mchin.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CustomerTable</servlet-name>
+        <servlet-class>com.mycompany.webprodezy.customer.CustomerTable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerTable</servlet-name>
+        <url-pattern>/customer.do</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>PlantTable</servlet-name>
+        <servlet-class>com.mycompany.webprodezy.plantmaster.PlantTable</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>PlantTable</servlet-name>
+        <url-pattern>/Plant.do</url-pattern>
+    </servlet-mapping>
+  
+   <servlet>
+        <servlet-name>Dietable</servlet-name>
+        <servlet-class>com.mycompany.webprodezy.diemaster.Dietable</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>Dietable</servlet-name>
+        <url-pattern>/DieMaster.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    	<servlet-name>EmpTable</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.employee.EmpTable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>EmpTable</servlet-name>
+    <url-pattern>/Emptable.do</url-pattern>
+    </servlet-mapping>
+      <servlet>
+    	<servlet-name>RmAPIData</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.rawmaterial.RmAPIData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>RmAPIData</servlet-name>
+    <url-pattern>/RmAPIData.do</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+    	<servlet-name>FininshedTable</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.finishedgoods.FininshedTable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>FininshedTable</servlet-name>
+    <url-pattern>/finish.do</url-pattern>
+    </servlet-mapping>
+      <servlet>
+    	<servlet-name>Supplier</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.supplier.Supplier</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Supplier</servlet-name>
+    <url-pattern>/Supplier.do</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+    	<servlet-name>UtilityTable</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.utility.UtilityTable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>UtilityTable</servlet-name>
+    <url-pattern>/UtilityTable.do</url-pattern>
+    </servlet-mapping>
+    <servlet>
+    	<servlet-name>ProductCustomer</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.product_customer.ProductCustomer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>ProductCustomer</servlet-name>
+    <url-pattern>/ProductCustomer.do</url-pattern>
+    </servlet-mapping>
+     <servlet>
+    	<servlet-name>Bomtable</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.bom.Bomtable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Bomtable</servlet-name>
+    <url-pattern>/Bomtable.do</url-pattern>
+    </servlet-mapping>
+    
+  	<servlet>
+    	<servlet-name>ProcessMastertable</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.processmaster.ProcessMastertable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>ProcessMastertable</servlet-name>
+    <url-pattern>/ProcessMaster.do</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    	<servlet-name>Batchtable</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.batch.Batchtable</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>Batchtable</servlet-name>
+    <url-pattern>/batch.do</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+    	<servlet-name>ProcessMap</servlet-name>
+    	<servlet-class>com.mycompany.webprodezy.processmap.ProcessMap</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>ProcessMap</servlet-name>
+    <url-pattern>/processmap.do</url-pattern>
+    </servlet-mapping>
+    
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
