@@ -34,7 +34,7 @@ public static String prepareWebCall ( String api) {
     //String result;
     //String header="eyJpdiI6Ik12OEJWT05uS2J6N0VVSUtMUUdQOUE9PSIsInZhbHVlIjoibnBvOHcwRzBJazdwRm5YVldLMHZHK2tvWWhrNVRtUE43TysyeTIrUm55MUozWCsyR3RGY1wvemIwbTRIQUpxaVwvRyt3XC9vZzN4ajJ3N21ibHFmeVJzM3ZlOHZLVkh2cmRrMlJvSUpKZ0VVaHcxRStmSytlYnlRa2dpMHBZXC83ZlQxc1JKRWMwZnZMWWE0XC9keVRVdW1wNXBIbEN5YnFpZlhEbWpoYlo0dzRwT2VSU1FnYkxYZ0N2UVZIZXd1SGR2dUtkZkd3VWx5VTk2Z01GcFwvNEdWcDh0emdBdnRcLytWK0syblwvUFpSZ2k5emJxSXRUZ3N6ZGN1aXFpdGN0ZGF0MWhpIiwibWFjIjoiMTQxMTM4MTc5MmRiZjgzNzgwYWExNDU4ZjQ1MjZjNWM1NjA1MzQ3YWVlZjMxYmM0YzE3ZGQyNDRkZmMxNDM2NiJ9";
     
-  String url = "http://13.235.82.118:80/projects/erp/public/"+api;
+  String url = "http://172.31.9.104:80/projects/erp/public/"+api;
 //    System.err.println(apiNameANDparameters);
 //    System.err.println(url);
    try {
